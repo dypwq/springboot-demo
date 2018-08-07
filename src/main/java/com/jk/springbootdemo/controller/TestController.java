@@ -30,10 +30,10 @@ public class TestController {
         List list=testService.queryll();
         return  "";
     }
-    @RequestMapping("queryll")
-    @ResponseBody
-    public  String querylls(){
-        List list=testService.queryll();
-        return  "";
-    }
+                @RequestMapping("queryll")
+                @ResponseBody
+                public  String querylls(){
+                    List list=testService.queryll();
+                    return  "";
+                }
     }
